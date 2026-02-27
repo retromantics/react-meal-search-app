@@ -4,7 +4,10 @@ import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/react-meal-search-app/" >
+  // <BrowserRouter basename="/react-meal-search-app/" >
+  //   <App />
+  // </BrowserRouter>
+  <HashRouter>
     <App />
-  </BrowserRouter>
+  </HashRouter>
 )
