@@ -1,12 +1,99 @@
-# React + Vite
+# 🍽️ MealSearch App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React web application that allows users to search for meals and view
+detailed recipe information using an external API.
 
-Currently, two official plugins are available:
+This project is a replica based on the following tutorial:
+https://github.com/thecodeholic/react-meals-app-2025/tree/main
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The goal of building this project was to strengthen my understanding of
+modern React development, API integration, routing, and scalable project
+structure.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Demo
+
+Add your live demo link here (if deployed):
+
+https://your-deployment-link.com
+
+---
+
+## 🛠️ Technologies Used
+
+- React\
+- Vite\
+- Tailwind CSS\
+- React Router\
+- TheMealDB API\
+- Axios
+
+---
+
+## 📂 Project Structure
+
+    src/
+     ├── components/
+     ├── layouts/
+     ├── pages/
+     ├── context/
+     ├── services/
+     └── main.jsx
+
+### Folder Explanation
+
+- components/ → Reusable UI components\
+- pages/ → Main application views\
+- layouts/ → Application layout structure\
+- services/ → API requests and external integrations\
+- context/ → Global state management (if applicable)
+
+---
+
+## ✨ Features
+
+- Search meals by name\
+- View detailed recipe information\
+- Display meal images and ingredients\
+- Responsive design\
+- Navigation with React Router
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+    git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+
+Navigate to the project folder:
+
+    cd YOUR-REPOSITORY
+
+Install dependencies:
+
+    npm install
+
+Run the development server:
+
+    npm run dev
+
+---
+
+## 🎯 Learning Objectives
+
+- Practice modern React (Hooks)
+- Understand API integration
+- Improve project structure organization
+- Work with routing in React
+- Apply styling using Tailwind CSS
+
+---
+
+## 📚 Credits
+
+Original tutorial by The Codeholic:
+https://github.com/thecodeholic/react-meals-app-2025/tree/main
+
+This project was built for educational purposes and personal practice.
